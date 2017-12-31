@@ -72,7 +72,7 @@ print ('NN Compiled')
 
 print ('Training the NN...')
 
-model = load_model(r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Models\Eva.h5')
+model = load_model(r'C:\Users\Usuario\Documents\GitHub\ouroboros\Ouroboros\TrainedNNs\mcnutsModel.h5')
 
 #model.fit(trainX, trainY, epochs=100, batch_size=1, verbose=2)
 
