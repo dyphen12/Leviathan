@@ -28,8 +28,8 @@ print(df)
 
 #Setting the dataset
 
-train_labels=np.array(df.open)
-train_samples=np.array([df.high,df.low,df.close])
+train_labels=np.array([df.Date])
+train_samples=np.array([df.open,df.high,df.low,df.close])
 
 scaler = MinMaxScaler(feature_range=(0, 1))
 scaled_train_samples= scaler.fit_transform((train_samples))
