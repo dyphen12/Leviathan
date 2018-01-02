@@ -53,8 +53,31 @@ print("DATA PROCESSED")
 print("")
 print("EVA_prototype // STARTING BUILDING NN")
 
+#Keras Imports
+
+import keras
+from keras.models import Sequential
+from keras.layers import Activation
+from keras.layers.core import Dense
+from keras.optimizers import Adam
+from keras.metrics import categorical_crossentropy
 
 
+model = Sequential([
+    Dense(4,input_shape=(),activation='relu'),
+    Dense(8,activation='relu'),
+    Dense(1, activation='softmax')
+])
 
+print("EVA_prototype // NN BUILD")
+print("")
+print("EVA_prototype // THIS IS EVA")
+model.summary()
+print("EVA_prototype // COMPILING EVA ")
 
+model.compile(Adam(lr=(0.001)),loss='sparse_categorical_crossentropy',metrics=['accuracy'])
 
+print("EVA_prototype // COMPILED SUCCESSFULLY ")
+print("")
+print("EVA_prototype // TRAINING EVA")
+model.fit(scaled_train_samples,train_labels,batch_size=10,epochs=200,shuffle=True,verbose=1)

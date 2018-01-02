@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d1f963c6-a786-40ff-ac95-d4d2a3a9028b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/Fortune Tellers/Eva_Prototype1.py" afterPath="$PROJECT_DIR$/Fortune Tellers/Eva_Prototype1.py" />
-      <change beforePath="$PROJECT_DIR$/Fortune Tellers/eva03.py" afterPath="$PROJECT_DIR$/Fortune Tellers/eva03.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +16,8 @@
       <file leaf-file-name="Eva_Prototype1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fortune Tellers/Eva_Prototype1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="137">
+              <caret line="66" column="46" lean-forward="true" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
               <folding>
                 <element signature="e#189#208#0" expanded="true" />
               </folding>
@@ -29,9 +28,11 @@
       <file leaf-file-name="eva03.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fortune Tellers/eva03.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
-              <caret line="40" column="39" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="40" selection-end-column="39" />
-              <folding />
+            <state relative-caret-position="-863">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,7 +40,7 @@
       <file leaf-file-name="BTCUSD.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fortune Tellers/Datasets/Eva prototype/BTCUSD.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-206">
+            <state relative-caret-position="17">
               <caret line="1" column="81" lean-forward="true" selection-start-line="1" selection-start-column="81" selection-end-line="1" selection-end-column="81" />
               <folding />
             </state>
@@ -504,14 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fortune Tellers/Datasets/Eva prototype/BTCUSD.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-206">
-          <caret line="1" column="81" lean-forward="true" selection-start-line="1" selection-start-column="81" selection-end-line="1" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fortune Tellers/Datasets/Eva prototype/BTCUSD_ALL.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -520,18 +513,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Fortune Tellers/Datasets/Eva prototype/BTCUSD.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="81" lean-forward="true" selection-start-line="1" selection-start-column="81" selection-end-line="1" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Fortune Tellers/eva03.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="40" column="39" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="40" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="-863">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fortune Tellers/Eva_Prototype1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="137">
+          <caret line="66" column="46" lean-forward="true" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
           <folding>
             <element signature="e#189#208#0" expanded="true" />
           </folding>
