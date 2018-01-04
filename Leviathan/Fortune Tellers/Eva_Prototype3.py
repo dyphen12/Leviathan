@@ -94,6 +94,7 @@ print("")
 print("EVA_Prototype3 // NEURAL NETWORK BUILDING PROCESS STARTED")
 print("")
 #Keras Imports
+from keras.models import load_model
 from keras.models import Sequential
 from keras.layers import Dense
 from keras.layers import LSTM
@@ -103,9 +104,14 @@ model = Sequential()
 model.add(LSTM(4, input_shape=(1, look_back)))
 model.add(Dense(1))
 model.compile(loss='mean_squared_error', optimizer='adam')
-model.fit(trainX, trainY, epochs=100, batch_size=1, verbose=2)
 
-model.save(r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Models\Eva_prototype3.h5')  # creates a HDF5 file 'my_model.h5'
+#Mounting model configuration
+
+#model.fit(trainX, trainY, epochs=100, batch_size=1, verbose=2)
+
+model = load_model(r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Models\Eva_prototype3.h5')
+
+#model.save(r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Models\Eva_prototype3.h5')  # creates a HDF5 file 'my_model.h5'
 print("")
 print("EVA_Prototype3 // NEURAL NETWORK BUILDING PROCESS FINISHED")
 print("")
@@ -127,12 +133,12 @@ testScore = math.sqrt(mean_squared_error(testY[0], testPredict[:,0]))
 print('Test Score: %.2f RMSE' % (testScore))
 
 # shift train predictions for plotting
-trainPredictPlot = numpy.empty_like(dataset)
-trainPredictPlot[:, :] = numpy.nan
+trainPredictPlot = np.empty_like(dataset)
+trainPredictPlot[:, :] = np.nan
 trainPredictPlot[look_back:len(trainPredict)+look_back, :] = trainPredict
 # shift test predictions for plotting
-testPredictPlot = numpy.empty_like(dataset)
-testPredictPlot[:, :] = numpy.nan
+testPredictPlot = np.empty_like(dataset)
+testPredictPlot[:, :] = np.nan
 testPredictPlot[len(trainPredict)+(look_back*2)+1:len(dataset)-1, :] = testPredict
 # plot baseline and predictions
 plt.plot(scaler.inverse_transform(dataset))
