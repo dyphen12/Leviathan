@@ -84,7 +84,7 @@ print('Saving model')
 
 #model.save('C:\Prisma Solutions\Programming\Eva\Eva.h5')  # creates a HDF5 file 'my_model.h5'
 #del model
-#model = load_model(r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Models\Eva.h5')
+model = load_model(r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Models\Eva.h5')
 # make predictions
 
 print ('Making Predictions')
