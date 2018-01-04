@@ -81,3 +81,8 @@ trainX, trainY = create_dataset(train, look_back)
 testX, testY = create_dataset(test, look_back)
 print("Correlation Matrix Created")
 
+
+print("Reshaping input data form for LSTM NN")
+# reshape input to be [samples, time steps, features]
+trainX = numpy.reshape(trainX, (trainX.shape[0], 1, trainX.shape[1]))
+testX = numpy.reshape(testX, (testX.shape[0], 1, testX.shape[1]))
