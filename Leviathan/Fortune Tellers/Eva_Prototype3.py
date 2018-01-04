@@ -107,11 +107,11 @@ model.compile(loss='mean_squared_error', optimizer='adam')
 
 #Mounting model configuration
 
-#model.fit(trainX, trainY, epochs=100, batch_size=1, verbose=2)
+model.fit(trainX, trainY, epochs=300, batch_size=1, verbose=2)
 
-model = load_model(r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Models\Eva_prototype3.h5')
+#model = load_model(r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Models\Eva.h5')
 
-#model.save(r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Models\Eva_prototype3.h5')  # creates a HDF5 file 'my_model.h5'
+model.save(r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Models\Eva_prototype3.h5')  # creates a HDF5 file 'my_model.h5'
 print("")
 print("EVA_Prototype3 // NEURAL NETWORK BUILDING PROCESS FINISHED")
 print("")
@@ -145,3 +145,4 @@ plt.plot(scaler.inverse_transform(dataset))
 plt.plot(trainPredictPlot)
 plt.plot(testPredictPlot)
 plt.show()
+plt.savefig('prediction.png')

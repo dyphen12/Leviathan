@@ -31,7 +31,7 @@ def create_dataset(dataset, look_back=1):
 numpy.random.seed(7)
 
 # load the dataset
-dataframe = read_csv(r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Datasets\Eva prototype\BTCUSD.csv', usecols=[1], engine='python', skipfooter=3)
+dataframe = read_csv(r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Datasets\Eva prototype\BTCUSD_Coindesk.csv', usecols=[1], engine='python', skipfooter=3)
 dataset = dataframe.values
 dataset = dataset.astype('float32')
 print('Dataset Loaded')
@@ -61,7 +61,7 @@ testX = numpy.reshape(testX, (testX.shape[0], testX.shape[1], 1))
 print ('Building NN...')
 
 model = Sequential()
-model.add(LSTM(4, input_shape=(look_back, 1)))
+model.add(LSTM(50, input_shape=(look_back, 1)))
 model.add(Dense(1))
 
 print ('NN Build')
@@ -72,9 +72,9 @@ print ('NN Compiled')
 
 print ('Training the NN...')
 
-#model = load_model(r'C:\Users\Usuario\Documents\GitHub\ouroboros\Ouroboros\TrainedNNs\mcnutsModel.h5')
+model = load_model(r'C:\Users\Usuario\Documents\GitHub\ouroboros\Ouroboros\TrainedNNs\mcnutsModel.h5')
 
-model.fit(trainX, trainY, epochs=300, batch_size=1, verbose=2)
+#model.fit(trainX, trainY, epochs=300, batch_size=1, verbose=2)
 
 print ('NN Trained')
 
@@ -84,7 +84,7 @@ print('Saving model')
 
 #model.save('C:\Prisma Solutions\Programming\Eva\Eva.h5')  # creates a HDF5 file 'my_model.h5'
 #del model
-model = load_model(r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Models\Eva.h5')
+#model = load_model(r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Models\Eva.h5')
 # make predictions
 
 print ('Making Predictions')
