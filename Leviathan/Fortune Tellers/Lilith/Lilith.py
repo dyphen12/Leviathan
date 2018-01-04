@@ -54,7 +54,7 @@ dataset = scaler.fit_transform(dataset)
 # split into train and test sets
 
 #Setting the train a set sizes
-train_size = int(len(dataset) * 0.99) #splitting the set into train set with 67% of the observation
+train_size = int(len(dataset) * 0.67) #splitting the set into train set with 67% of the observation
 test_size = len(dataset) - train_size #Splitting the set into test set with 33% of the observation (sustracting trainsize)
 
 #Splitting the data
@@ -98,12 +98,15 @@ from keras.models import load_model
 from keras.models import Sequential
 from keras.layers import Dense
 from keras.layers import LSTM
+from keras.activations import relu
+from keras.layers import Conv2D
+from keras.layers import ConvLSTM2D
 
 # create and fit the LSTM network
 model = Sequential()
-model.add(LSTM(50, input_shape=(1, look_back)))
-model.add(Dense(1))
-model.compile(loss='binary_crossentropy', optimizer='adam')
+model.add(LSTM(30, input_shape=(1, look_back)))
+model.add(Dense(1, activation='relu'))
+model.compile(loss='mean_squared_error', optimizer='SGD')
 
 #Mounting model configuration
 
