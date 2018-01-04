@@ -36,7 +36,7 @@ dataset = dataframe.values
 dataset = dataset.astype('float32')
 
 print("Dataset loaded!")
-
+print("")
 'Note: The dataset needs to be plotted by matplotlib, if is plotted then works.'
 
 import matplotlib.pyplot as plt
@@ -45,7 +45,7 @@ print("Plotting dataset")
 plt.plot(dataset)
 plt.show()
 print("Dataset plotted")
-
+print("")
 # normalize the dataset
 print("Normalizing dataset...")
 scaler = MinMaxScaler(feature_range=(0, 1))
@@ -71,7 +71,7 @@ def create_dataset(dataset, look_back=1):
 		a = dataset[i:(i+look_back), 0]
 		dataX.append(a)                         #Xrow (t)
 		dataY.append(dataset[i + look_back, 0]) #Yrow (t+1)
-	return numpy.array(dataX), numpy.array(dataY) #Returns your shit ready
+	return np.array(dataX), np.array(dataY) #Returns your shit ready
 
 #Until here.---------------------------------------
 
@@ -81,8 +81,61 @@ trainX, trainY = create_dataset(train, look_back)
 testX, testY = create_dataset(test, look_back)
 print("Correlation Matrix Created")
 
-
+print("")
 print("Reshaping input data form for LSTM NN")
 # reshape input to be [samples, time steps, features]
-trainX = numpy.reshape(trainX, (trainX.shape[0], 1, trainX.shape[1]))
-testX = numpy.reshape(testX, (testX.shape[0], 1, testX.shape[1]))
+trainX = np.reshape(trainX, (trainX.shape[0], 1, trainX.shape[1]))
+testX = np.reshape(testX, (testX.shape[0], 1, testX.shape[1]))
+
+print("EVA_Prototype3 // DATASETTING PROCESS FINISHED")
+print("")
+#This is the EVA LSTM NN
+
+print("EVA_Prototype3 // NEURAL NETWORK BUILDING PROCESS STARTED")
+print("")
+#Keras Imports
+from keras.models import Sequential
+from keras.layers import Dense
+from keras.layers import LSTM
+
+# create and fit the LSTM network
+model = Sequential()
+model.add(LSTM(4, input_shape=(1, look_back)))
+model.add(Dense(1))
+model.compile(loss='mean_squared_error', optimizer='adam')
+model.fit(trainX, trainY, epochs=100, batch_size=1, verbose=2)
+
+model.save(r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Models\Eva_prototype3.h5')  # creates a HDF5 file 'my_model.h5'
+print("")
+print("EVA_Prototype3 // NEURAL NETWORK BUILDING PROCESS FINISHED")
+print("")
+print("EVA_Prototype3 // MAKING PREDICTIONS")
+print("EVA_Prototype3 // MODE 1")
+
+# make predictions
+trainPredict = model.predict(trainX)
+testPredict = model.predict(testX)
+# invert predictions
+trainPredict = scaler.inverse_transform(trainPredict)
+trainY = scaler.inverse_transform([trainY])
+testPredict = scaler.inverse_transform(testPredict)
+testY = scaler.inverse_transform([testY])
+# calculate root mean squared error
+trainScore = math.sqrt(mean_squared_error(trainY[0], trainPredict[:,0]))
+print('Train Score: %.2f RMSE' % (trainScore))
+testScore = math.sqrt(mean_squared_error(testY[0], testPredict[:,0]))
+print('Test Score: %.2f RMSE' % (testScore))
+
+# shift train predictions for plotting
+trainPredictPlot = numpy.empty_like(dataset)
+trainPredictPlot[:, :] = numpy.nan
+trainPredictPlot[look_back:len(trainPredict)+look_back, :] = trainPredict
+# shift test predictions for plotting
+testPredictPlot = numpy.empty_like(dataset)
+testPredictPlot[:, :] = numpy.nan
+testPredictPlot[len(trainPredict)+(look_back*2)+1:len(dataset)-1, :] = testPredict
+# plot baseline and predictions
+plt.plot(scaler.inverse_transform(dataset))
+plt.plot(trainPredictPlot)
+plt.plot(testPredictPlot)
+plt.show()
