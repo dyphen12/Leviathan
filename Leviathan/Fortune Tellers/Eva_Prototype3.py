@@ -107,7 +107,7 @@ model.compile(loss='mean_squared_error', optimizer='adam')
 
 #Mounting model configuration
 
-model.fit(trainX, trainY, epochs=300, batch_size=1, verbose=2)
+model.fit(trainX, trainY, epochs=100, batch_size=1, verbose=2)
 
 #model = load_model(r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Models\Eva.h5')
 
