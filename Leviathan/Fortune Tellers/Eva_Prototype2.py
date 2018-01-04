@@ -1,6 +1,6 @@
 #Basic Deep Learning Neural Network "EVA"
 
-#The first functional EVA for Leviathan
+#The first functional EVA for Leviathan -- NON FUCTIONAL
 
 'This prototype is for a univariate dataset'
 'This EVA only predicts the basic BTC/USD Chart'
@@ -33,7 +33,7 @@ print("Dataset loaded!")
 
 print("Plotting the data")
 
-x = np.array(df.date,dtype='float64')
+x = np.array(df.date)
 y = np.array(df.close)
 
 trace = go.Scatter(
