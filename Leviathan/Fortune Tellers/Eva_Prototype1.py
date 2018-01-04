@@ -27,7 +27,7 @@ print("EVA_Prototype // ON")
 #Analyze of the dataset
 print("Getting dataset // NOW USING: pandas")
 
-Location = r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Datasets\Eva prototype\BTCUSD_ALL.csv'
+Location = r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Datasets\Eva prototype\BTCUSD_Coindesk.csv'
 df = pd.read_csv(Location)
 
 print("Dataset loaded!")
@@ -35,7 +35,10 @@ print("Dataset loaded!")
 print("Splitting the data")
 
 train_labels=np.array(df.date)
-train_samples=np.array([df.open,df.high,df.low,df.close])
+#Train_Samples ohlc
+#train_samples=np.array([df.open,df.high,df.low,df.close])
+train_samples=np.array(df.close)
+
 
 print("Data successfully splitted!")
 print("")
@@ -46,7 +49,7 @@ print("STARTING...")
 
 'This is how we process the data for a multilayer perceptron'
 scaler = MinMaxScaler(feature_range=(0, 1))
-scaled_train_samples = scaler.fit_transform(train_samples)
+#scaled_train_samples = scaler.fit_transform(train_samples)
 'That s it!'
 
 print("DATA PROCESSED")
@@ -64,8 +67,8 @@ from keras.metrics import categorical_crossentropy
 
 
 model = Sequential([
-    Dense(4,input_shape=(),activation='relu'),
-    Dense(8,activation='relu'),
+    Dense(8,input_shape=(1,),activation='relu'),
+    Dense(6,activation='relu'),
     Dense(1, activation='softmax')
 ])
 
@@ -80,4 +83,4 @@ model.compile(Adam(lr=(0.001)),loss='sparse_categorical_crossentropy',metrics=['
 print("EVA_prototype // COMPILED SUCCESSFULLY ")
 print("")
 print("EVA_prototype // TRAINING EVA")
-model.fit(scaled_train_samples,train_labels,batch_size=10,epochs=200,shuffle=True,verbose=1)
+model.fit(train_samples,train_labels,batch_size=10,epochs=200,shuffle=True,verbose=1)
