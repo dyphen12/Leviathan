@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1f963c6-a786-40ff-ac95-d4d2a3a9028b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Maesters/Aemon.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Maesters/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Angels/Sachiel.py" afterPath="$PROJECT_DIR$/Angels/Sachiel.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,84 +13,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Lilith.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fortune Tellers/Lilith/Lilith.py">
+      <file leaf-file-name="Sachiel.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Angels/Sachiel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1819">
-              <caret line="107" column="38" lean-forward="false" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mcnuts.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../ouroboros/Ouroboros/src/brainstuff/mcnuts.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2380">
-              <caret line="156" column="22" lean-forward="false" selection-start-line="156" selection-start-column="22" selection-end-line="156" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Eva_Prototype3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fortune Tellers/Eva_Prototype3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="56" column="36" lean-forward="false" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edvard.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../ouroboros/Ouroboros/src/core/edvard.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BTCUSD_1min.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fortune Tellers/Datasets/Eva prototype/BTCUSD_1min.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BTCUSD_Coindesk.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fortune Tellers/Datasets/Eva prototype/BTCUSD_Coindesk.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eva03.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fortune Tellers/older versions/eva03.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="62" column="20" lean-forward="false" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+            <state relative-caret-position="123">
+              <caret line="34" column="4" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
               <folding>
-                <element signature="e#0#12#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nutty.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../ouroboros/Ouroboros/src/brainstuff/nutty.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -122,6 +50,7 @@
         <option value="$PROJECT_DIR$/Fortune Tellers/Lilith/Lilith.py" />
         <option value="$PROJECT_DIR$/Fortune Tellers/Datasets/Eva prototype/BTCUSD_1min.csv" />
         <option value="$PROJECT_DIR$/Fortune Tellers/Eva_Prototype3.py" />
+        <option value="$PROJECT_DIR$/Angels/Sachiel.py" />
       </list>
     </option>
   </component>
@@ -158,66 +87,7 @@
             <path>
               <item name="Leviathan" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leviathan" type="462c0819:PsiDirectoryNode" />
-              <item name="Fortune Tellers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leviathan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leviathan" type="462c0819:PsiDirectoryNode" />
-              <item name="Fortune Tellers" type="462c0819:PsiDirectoryNode" />
-              <item name="Datasets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leviathan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leviathan" type="462c0819:PsiDirectoryNode" />
-              <item name="Fortune Tellers" type="462c0819:PsiDirectoryNode" />
-              <item name="Datasets" type="462c0819:PsiDirectoryNode" />
-              <item name="Eva knowledge" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leviathan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leviathan" type="462c0819:PsiDirectoryNode" />
-              <item name="Fortune Tellers" type="462c0819:PsiDirectoryNode" />
-              <item name="Datasets" type="462c0819:PsiDirectoryNode" />
-              <item name="Eva prototype" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leviathan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leviathan" type="462c0819:PsiDirectoryNode" />
-              <item name="Fortune Tellers" type="462c0819:PsiDirectoryNode" />
-              <item name="Lilith" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leviathan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leviathan" type="462c0819:PsiDirectoryNode" />
-              <item name="Fortune Tellers" type="462c0819:PsiDirectoryNode" />
-              <item name="older versions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leviathan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ouroboros" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leviathan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ouroboros" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leviathan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ouroboros" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="brainstuff" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leviathan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ouroboros" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leviathan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ouroboros" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="inicators" type="462c0819:PsiDirectoryNode" />
+              <item name="Angels" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -242,25 +112,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Eva_Prototype3">
-    <configuration name="Eva_Prototype1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fortune Tellers" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Leviathan" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fortune Tellers/Eva_Prototype1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.Sachiel">
     <configuration name="Eva_Prototype2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -315,6 +167,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Sachiel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Angels" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Leviathan" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Angels/Sachiel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="eva03" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -335,18 +205,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.eva03" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Eva_Prototype1" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Eva_Prototype2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Eva_Prototype3" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Lilith" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Eva_Prototype2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Eva_Prototype3" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Lilith" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Sachiel" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Eva_Prototype3" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Lilith" />
-        <item index="2" class="java.lang.String" itemvalue="Python.eva03" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Eva_Prototype2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Eva_Prototype1" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Sachiel" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Eva_Prototype3" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Lilith" />
+        <item index="3" class="java.lang.String" itemvalue="Python.eva03" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Eva_Prototype2" />
       </list>
     </recent_temporary>
   </component>
@@ -368,13 +238,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21354167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2044374" sideWeight="0.32064423" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28618422" sideWeight="0.6793558" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1299342" sideWeight="0.6793558" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34210527" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -426,14 +297,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Fortune Tellers/Lilith/Lilith.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1819">
-          <caret line="107" column="38" lean-forward="false" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../ouroboros/Ouroboros/src/brainstuff/mcnuts.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2652">
@@ -471,7 +334,7 @@
         <state relative-caret-position="799">
           <caret line="62" column="20" lean-forward="true" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#0#12#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -661,22 +524,6 @@
     <entry file="file://$PROJECT_DIR$/Fortune Tellers/Eva_Prototype2.py" />
     <entry file="file://$PROJECT_DIR$/Fortune Tellers/eva03.py" />
     <entry file="file://$PROJECT_DIR$/Fortune Tellers/Eva_Prototype1.py" />
-    <entry file="file://$PROJECT_DIR$/../../ouroboros/Ouroboros/src/brainstuff/mcnuts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2380">
-          <caret line="156" column="22" lean-forward="false" selection-start-line="156" selection-start-column="22" selection-end-line="156" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fortune Tellers/Datasets/Eva prototype/BTCUSD_Coindesk.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fortune Tellers/Lilith/Lilith.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1819">
@@ -685,20 +532,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fortune Tellers/older versions/eva03.py">
+    <entry file="file://$PROJECT_DIR$/../../ouroboros/Ouroboros/src/Edvard.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="62" column="20" lean-forward="false" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../ouroboros/Ouroboros/src/brainstuff/nutty.py">
+    <entry file="file://$PROJECT_DIR$/../../ouroboros/Ouroboros/src/brainstuff/mcnuts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="17">
+          <caret line="156" column="22" lean-forward="false" selection-start-line="156" selection-start-column="22" selection-end-line="156" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fortune Tellers/Eva_Prototype3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="56" column="36" lean-forward="false" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ouroboros/Ouroboros/src/core/edvard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -711,26 +571,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../ouroboros/Ouroboros/src/Edvard.py">
+    <entry file="file://$PROJECT_DIR$/Fortune Tellers/Datasets/Eva prototype/BTCUSD_Coindesk.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fortune Tellers/Eva_Prototype3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="56" column="36" lean-forward="false" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+        <state relative-caret-position="17">
+          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../ouroboros/Ouroboros/src/core/edvard.py">
+    <entry file="file://$PROJECT_DIR$/Fortune Tellers/older versions/eva03.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="62" column="20" lean-forward="false" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#12#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ouroboros/Ouroboros/src/brainstuff/nutty.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angels/Sachiel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="34" column="4" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

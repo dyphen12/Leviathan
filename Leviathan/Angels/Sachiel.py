@@ -1,6 +1,5 @@
 import requests, json, csv
 
-import boto3
 
 import os
 
@@ -30,10 +29,11 @@ while option != 0:
 
 
 	#GET request
+
 	
-	print('Bitstory Module v0.5 alpha\n')
+	print('ANGEL: SACHIEL\n')
 	
-	print('a history of bitcoin prices\n')
+	print('BTC/USD Chart messenger\n')
 	
 	r = requests.get('https://api.coinmarketcap.com/v1/ticker/bitcoin/', timeout=300)
 
@@ -74,7 +74,7 @@ while option != 0:
 	
 	#Write in .txt
 
-	h = open("bitstory.txt","a")
+	h = open("Sachiel_BTCUSD.txt","a")
 	h.write("-------------\n")
 	h.write(day)
 	h.write("/")
