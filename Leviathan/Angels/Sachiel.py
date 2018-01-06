@@ -206,12 +206,15 @@ while option != 0:
 	trainX, trainY = create_dataset(train, look_back)
 	testX, testY = create_dataset(test, look_back)
 	print("Correlation Matrix Created")
-
-	print("")
 	print("Reshaping input data form for LSTM NN")
 	# reshape input to be [samples, time steps, features]
 	trainX = np.reshape(trainX, (trainX.shape[0], 1, trainX.shape[1]))
 	testX = np.reshape(testX, (testX.shape[0], 1, testX.shape[1]))
+
+	def returndata (testX):
+		RTdataX=testX
+		returndata(RTdataX)
+
 
 
 
