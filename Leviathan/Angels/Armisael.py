@@ -18,7 +18,7 @@ def fusion ():
 
     while option != 0:
 
-        ArmisaelON=True
+        ArmisaelON = True  #ON/OFF Button
 
         # Time module
 
@@ -163,6 +163,7 @@ def fusion ():
 
         dataset = dataframe.values
         dataset = dataset.astype('float32')
+        rawdata=dataset
 
         print("Plotting dataset")
         plt.plot(dataset)
@@ -211,9 +212,10 @@ def fusion ():
         testX = np.reshape(testX, (testX.shape[0], 1, testX.shape[1]))
 
 
+
         RdataX = testX
         TdataX = trainX
-        return RdataX,TdataX,ArmisaelON
+        return RdataX,TdataX,rawdata,ArmisaelON
 
 
 

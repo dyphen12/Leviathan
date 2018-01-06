@@ -88,4 +88,184 @@ Price: $16953.6
 Circulating Supply: 16785237.0 BTC
 % Change (24h): 5.01%
 
+--------------------------
+6/1/2018 @ 5:42:20
+
+Crypto: Bitcoin
+Market Cap: $284447661773
+Price: $16946.3
+Circulating Supply: 16785237.0 BTC
+% Change (24h): 4.67%
+
+--------------------------
+6/1/2018 @ 5:49:55
+
+Crypto: Bitcoin
+Market Cap: $282390431018
+Price: $16823.7
+Circulating Supply: 16785275.0 BTC
+% Change (24h): 3.45%
+
+--------------------------
+6/1/2018 @ 5:52:15
+
+Crypto: Bitcoin
+Market Cap: $282390431018
+Price: $16823.7
+Circulating Supply: 16785275.0 BTC
+% Change (24h): 3.45%
+
+--------------------------
+6/1/2018 @ 5:53:6
+
+Crypto: Bitcoin
+Market Cap: $282390431018
+Price: $16823.7
+Circulating Supply: 16785275.0 BTC
+% Change (24h): 3.45%
+
+--------------------------
+6/1/2018 @ 5:57:57
+
+Crypto: Bitcoin
+Market Cap: $283516722970
+Price: $16890.8
+Circulating Supply: 16785275.0 BTC
+% Change (24h): 3.86%
+
+--------------------------
+6/1/2018 @ 5:58:56
+
+Crypto: Bitcoin
+Market Cap: $283516722970
+Price: $16890.8
+Circulating Supply: 16785275.0 BTC
+% Change (24h): 3.86%
+
+--------------------------
+6/1/2018 @ 6:1:37
+
+Crypto: Bitcoin
+Market Cap: $284335844390
+Price: $16939.6
+Circulating Supply: 16785275.0 BTC
+% Change (24h): 4.02%
+
+--------------------------
+6/1/2018 @ 6:9:31
+
+Crypto: Bitcoin
+Market Cap: $284636724750
+Price: $16957.5
+Circulating Supply: 16785300.0 BTC
+% Change (24h): 3.76%
+
+--------------------------
+6/1/2018 @ 6:10:8
+
+Crypto: Bitcoin
+Market Cap: $284636724750
+Price: $16957.5
+Circulating Supply: 16785300.0 BTC
+% Change (24h): 3.76%
+
+--------------------------
+6/1/2018 @ 6:19:1
+
+Crypto: Bitcoin
+Market Cap: $285084892260
+Price: $16984.2
+Circulating Supply: 16785300.0 BTC
+% Change (24h): 3.57%
+
+--------------------------
+6/1/2018 @ 6:19:14
+
+Crypto: Bitcoin
+Market Cap: $285084892260
+Price: $16984.2
+Circulating Supply: 16785300.0 BTC
+% Change (24h): 3.57%
+
+--------------------------
+6/1/2018 @ 6:19:25
+
+Crypto: Bitcoin
+Market Cap: $285084892260
+Price: $16984.2
+Circulating Supply: 16785300.0 BTC
+% Change (24h): 3.57%
+
+--------------------------
+6/1/2018 @ 6:19:37
+
+Crypto: Bitcoin
+Market Cap: $285084892260
+Price: $16984.2
+Circulating Supply: 16785300.0 BTC
+% Change (24h): 3.57%
+
+--------------------------
+6/1/2018 @ 6:25:0
+
+Crypto: Bitcoin
+Market Cap: $286033261710
+Price: $17040.7
+Circulating Supply: 16785300.0 BTC
+% Change (24h): 3.77%
+
+--------------------------
+6/1/2018 @ 6:25:15
+
+Crypto: Bitcoin
+Market Cap: $286033261710
+Price: $17040.7
+Circulating Supply: 16785300.0 BTC
+% Change (24h): 3.77%
+
+--------------------------
+6/1/2018 @ 6:25:26
+
+Crypto: Bitcoin
+Market Cap: $286033261710
+Price: $17040.7
+Circulating Supply: 16785300.0 BTC
+% Change (24h): 3.77%
+
+--------------------------
+6/1/2018 @ 6:25:38
+
+Crypto: Bitcoin
+Market Cap: $286033261710
+Price: $17040.7
+Circulating Supply: 16785300.0 BTC
+% Change (24h): 3.77%
+
+--------------------------
+6/1/2018 @ 6:27:14
+
+Crypto: Bitcoin
+Market Cap: $286033261710
+Price: $17040.7
+Circulating Supply: 16785300.0 BTC
+% Change (24h): 3.77%
+
+--------------------------
+6/1/2018 @ 6:27:27
+
+Crypto: Bitcoin
+Market Cap: $286033261710
+Price: $17040.7
+Circulating Supply: 16785300.0 BTC
+% Change (24h): 3.77%
+
+--------------------------
+6/1/2018 @ 6:29:30
+
+Crypto: Bitcoin
+Market Cap: $286033261710
+Price: $17040.7
+Circulating Supply: 16785300.0 BTC
+% Change (24h): 3.77%
+
 -------------

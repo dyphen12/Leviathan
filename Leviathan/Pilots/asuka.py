@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from pandas import read_csv
 import pandas as pd
 from keras.models import load_model
-
+from sklearn.preprocessing import MinMaxScaler
 from Angels.Armisael import fusion
 
 
@@ -17,12 +17,32 @@ model = load_model(r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortu
 
 print('model loaded')
 
+AsukaON = True
+
 print('Loading data from Angel: Sachiel')
 
-(ArmisaeltrainX,ArmisaeltestX,AngelStatus) = fusion()
 
-    while AngelStatus = True:
-        
+while AsukaON == True:
+
+    (ArmisaeltrainX,ArmisaeltestX,RawData,AngelStatus) = fusion()
+
+    while AngelStatus == True:
+
+        # make predictions
+        trainPredict = model.predict(ArmisaeltrainX)
+        testPredict = model.predict(ArmisaeltestX)
+
+        scaler = MinMaxScaler(feature_range=(0, 1))
+        scaler.fit(RawData)
+        trainPredict = scaler.inverse_transform(trainPredict)
+
+        print(trainPredict)
+
+        AngelStatus = False
+        AsukaON = False
+
+
+
 
 
 
