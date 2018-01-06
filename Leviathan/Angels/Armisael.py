@@ -76,7 +76,7 @@ def fusion ():
 
         # Write in .txt
 
-        h = open("Armisael_BTCUSD.txt", "a")
+        h = open(r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Angels\data\BTCUSD_Armisael.txt', 'a')
         h.write("-------------\n")
         h.write(day)
         h.write("/")
@@ -123,7 +123,7 @@ def fusion ():
                      cmkdata['percent_change_24h']]
 
         if cont == 0:
-            with open('BTCUSD.csv', 'a') as csvfile:
+            with open(r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Angels\data\BTCUSD.csv', 'a') as csvfile:
                 fieldnames = ['day', 'price']
                 writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
@@ -133,7 +133,7 @@ def fusion ():
                     'price': cmkdata['price_usd']})
 
         else:
-            with open('BTCUSD.csv', 'a') as csvfile:
+            with open(r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Angels\data\BTCUSD.csv', 'a') as csvfile:
                 fieldnames = ['day', 'price']
                 writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
                 writer.writerow({
@@ -150,15 +150,16 @@ def fusion ():
 
         print("EVA RECOGNIZED // PREPARING DATA\n")
 
-        with open('BTCUSDtoEVA.csv', 'a') as csvfile:
-            writer = csv.writer(csvfile, quoting=csv.QUOTE_ALL)
-            writer.writerow({cmkdata['price_usd'], day})
+        with open(r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Angels\data\BTCUSDtoEVA.csv', 'a',newline='') as csvfile:
+            writer = csv.writer(csvfile, quoting=csv.QUOTE_ALL, delimiter=',')
+            writer.writerow({day,cmkdata['price_usd']})
+
 
         import pandas as pd
         import matplotlib.pyplot as plt
         from sklearn.preprocessing import MinMaxScaler
 
-        Location = r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Angels\BTCUSDtoEVA.csv'
+        Location = r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Angels\data\BTCUSDtoEVA.csv'
         dataframe = pd.read_csv(Location, usecols=[1], engine='python')
 
         dataset = dataframe.values
@@ -167,7 +168,7 @@ def fusion ():
 
         print("Plotting dataset")
         plt.plot(dataset)
-        # plt.show()
+        #plt.show()
         print("Dataset plotted")
 
         # normalize the dataset

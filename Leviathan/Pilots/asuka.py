@@ -35,10 +35,15 @@ while AsukaON == True:
         scaler.fit(RawData)
         trainPredict = scaler.inverse_transform(trainPredict)
 
-        print(trainPredict)
+        print('THIS IS THE PREDICTION FOR THE NEXT 10 SECONDS (NOT TO PRECISE BUT THE DATA NEEDS A FIX)\n')
+        print('The most recent prediction prints at the top\n')
+
+
+
+        print(trainPredict[-1])
 
         AngelStatus = False
-        AsukaON = False
+        AsukaON = True #ON/OFF Button
 
 
 
