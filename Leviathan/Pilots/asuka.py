@@ -4,34 +4,27 @@ import numpy as np
 import matplotlib.pyplot as plt
 from pandas import read_csv
 import pandas as pd
-import math
-from keras.models import Sequential
-from keras.layers import Dense
-from keras.layers import LSTM
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.metrics import mean_squared_error
-from keras.models import model_from_json
 from keras.models import load_model
 
-from keras.layers import Dropout, Activation
-from keras.optimizers import SGD
-from keras.layers.recurrent import LSTM
-from keras.layers.convolutional import Convolution2D
+from Angels.Armisael import fusion
 
-print('"Asuka" the "McNuts" model pilot from ouroboros')
 
-print('Loading model: McNuts')
+print('"Asuka" the pilot for the EVA_Prototype3')
 
-model = load_model(r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Models\Eva.h5')
+print('Loading model: EVA_Prototype3')
+
+model = load_model(r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Models\Eva_prototype3.h5')
 
 print('model loaded')
 
+print('Loading data from Angel: Sachiel')
 
-Location = r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Pilots\predictionsample.csv'
-sample = pd.read_csv(Location)
+(ArmisaeltrainX,ArmisaeltestX,AngelStatus) = fusion()
 
-sample = np.array([sample.date])
+    while AngelStatus = True:
+        
 
-print('Making predictions')
 
-predictions = model.predict(sample)
+
+
+

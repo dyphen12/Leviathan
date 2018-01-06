@@ -29,7 +29,7 @@ print("EVA_Prototype3 // DATASETTING PROCESS STARTED")
 #Analyze of the dataset
 print("Getting dataset // NOW USING: pandas")
 
-Location = r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Datasets\Eva prototype\BTCUSD_1min.csv'
+Location = r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Datasets\BTCUSD_coindesk6ene.csv'
 dataframe = pd.read_csv(Location,usecols=[1], engine='python', skipfooter=1)
 
 dataset = dataframe.values
@@ -54,7 +54,7 @@ dataset = scaler.fit_transform(dataset)
 # split into train and test sets
 
 #Setting the train a set sizes
-train_size = int(len(dataset) * 0.67) #splitting the set into train set with 67% of the observation
+train_size = int(len(dataset) * 0.90) #splitting the set into train set with 67% of the observation
 test_size = len(dataset) - train_size #Splitting the set into test set with 33% of the observation (sustracting trainsize)
 
 #Splitting the data
@@ -107,11 +107,11 @@ model.compile(loss='binary_crossentropy', optimizer='adam')
 
 #Mounting model configuration
 
-model.fit(trainX, trainY, epochs=100, batch_size=1, verbose=2)
+#model.fit(trainX, trainY, epochs=100, batch_size=1, verbose=2)
 
-#model = load_model(r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Models\Eva.h5')
+model = load_model(r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Models\Eva_prototype3.h5')
 
-model.save(r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Models\Eva_prototype3.h5')  # creates a HDF5 file 'my_model.h5'
+#model.save(r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Models\Eva_prototype3.h5')  # creates a HDF5 file 'my_model.h5'
 print("")
 print("EVA_Prototype3 // NEURAL NETWORK BUILDING PROCESS FINISHED")
 print("")

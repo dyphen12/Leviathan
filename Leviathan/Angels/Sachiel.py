@@ -211,9 +211,12 @@ while option != 0:
 	trainX = np.reshape(trainX, (trainX.shape[0], 1, trainX.shape[1]))
 	testX = np.reshape(testX, (testX.shape[0], 1, testX.shape[1]))
 
-	def returndata (testX):
-		RTdataX=testX
-		returndata(RTdataX)
+	def realtimedata (testX,trainX):
+		RdataX=testX
+		TdataX=trainX
+		return (RdataX,TdataX)
+
+
 
 
 
