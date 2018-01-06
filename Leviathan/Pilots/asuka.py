@@ -1,4 +1,3 @@
-#This is 'Asuka' the 'McNuts' model pilot from ouroboros
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -19,7 +18,7 @@ print('model loaded')
 
 AsukaON = True
 
-print('Loading data from Angel: Sachiel')
+print('Loading data from Angel: Armisael')
 
 
 while AsukaON == True:

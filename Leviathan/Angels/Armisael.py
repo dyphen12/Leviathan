@@ -34,7 +34,7 @@ def fusion ():
 
         # GET request
 
-        print('\nANGEL: SACHIEL\n')
+        print('\nANGEL: Armisael\n')
 
         print('BTC/USD Chart messenger for predictions\n')
 
@@ -76,7 +76,7 @@ def fusion ():
 
         # Write in .txt
 
-        h = open("Sachiel_BTCUSD.txt", "a")
+        h = open("Armisael_BTCUSD.txt", "a")
         h.write("-------------\n")
         h.write(day)
         h.write("/")
