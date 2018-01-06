@@ -1,20 +1,21 @@
 import requests, json, csv
 
-
 import os
 
 import time
+
+import numpy as np
 
 from datetime import datetime
 
 cont = 0
 
 option = 2
-nextreq = 10;  
+nextreq = 10;
 
 while option != 0:
-    
-    
+
+
 	#Time module
 
 	now = datetime.now()
@@ -30,48 +31,48 @@ while option != 0:
 
 	#GET request
 
-	
-	print('ANGEL: SACHIEL\n')
-	
-	print('BTC/USD Chart messenger\n')
-	
+
+	print('\nANGEL: SACHIEL\n')
+
+	print('BTC/USD Chart messenger for predictions\n')
+
 	r = requests.get('https://api.coinmarketcap.com/v1/ticker/bitcoin/', timeout=300)
 
 	print('This is the URL')
 
 	print(r.url)
-	
+
 	r.json()
-	
+
 	r.text
-	
+
 	#Decoding JSON
-	
+
 	cmkdatajson = r.text
-	
+
 	cmkdataparsed = json.loads(cmkdatajson)
-	
+
 	cmkdata = cmkdataparsed[0]
-	
-	
+
+
 	#Print in screen
-	
+
 	print ('\n')
-	
+
 	print ("Request made ", day,"/",month,"/",year," @ ",hour,":",min,":",secs)
-	
+
 	print ('\n')
-	
+
 	print('Crypto:' ,cmkdata['name'])
-	
+
 	print('Market Cap: ','$',cmkdata['market_cap_usd'])
-	
+
 	print('Price: ','$',cmkdata['price_usd'])
-	
+
 	print('Circulating Supply: ',cmkdata['available_supply'], 'BTC')
-	
+
 	print('% Change (24h): ',cmkdata['percent_change_24h'],'%')
-	
+
 	#Write in .txt
 
 	h = open("Sachiel_BTCUSD.txt","a")
@@ -111,46 +112,61 @@ while option != 0:
 	h.write("-------------")
 
 	h.close()
-	
+
 	#Write in the CSV
-	
+
 	cmplxdata = [cmkdata['market_cap_usd'],
                      cmkdata['price_usd'],
                      cmkdata['available_supply'],
                      cmkdata['24h_volume_usd'],
                      cmkdata['percent_change_24h']]
-	
+
 	if cont == 0:
-            with open('amazondata.csv', 'a') as csvfile:               
-                fieldnames = ['market_cap', 'price','avlble_spply','volume24h','prcntg_chnge24h']
+            with open('BTCUSD.csv', 'a') as csvfile:
+                fieldnames = ['day','price']
                 writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
                 writer.writeheader()
-                writer.writerow({'market_cap': cmkdata['market_cap_usd'],
-                             'price': cmkdata['price_usd'],
-                             'avlble_spply': cmkdata['available_supply'],
-                             'volume24h':cmkdata['24h_volume_usd'],
-                             'prcntg_chnge24h':cmkdata['percent_change_24h']})
-            	
-	else:
-            with open('amazondata.csv', 'a') as csvfile:
-                fieldnames = ['market_cap', 'price','avlble_spply','volume24h','prcntg_chnge24h']
-                writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+                writer.writerow({
+					'day': day,
+					'price': cmkdata['price_usd']})
 
-            
-                writer.writerow({'market_cap': cmkdata['market_cap_usd'],
-                             'price': cmkdata['price_usd'],
-                             'avlble_spply': cmkdata['available_supply'],
-                             'volume24h':cmkdata['24h_volume_usd'],
-                             'prcntg_chnge24h':cmkdata['percent_change_24h']})
-	          
+	else:
+            with open('BTCUSD.csv', 'a') as csvfile:
+                fieldnames = ['day','price']
+                writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+                writer.writerow({
+					'day': day,
+					'price': cmkdata['price_usd']})
+
 	print ("\n\n wait 10 seconds for the next request")
-	
+
 	cont = cont+1
 
 	time.sleep(nextreq)
-	
+
 	os.system('cls')
 
+	print("EVA RECOGNIZED // PREPARING DATA\n")
 
-    
+	with open('BTCUSDtoEVA.csv', 'a') as csvfile:
+		writer = csv.writer(csvfile,quoting=csv.QUOTE_ALL)
+		writer.writerow({cmkdata['price_usd'],day})
+
+	import pandas as pd
+	import matplotlib.pyplot as plt
+
+	Location = r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Angels\BTCUSDtoEVA.csv'
+	dataframe = pd.read_csv(Location, usecols=[1], engine='python')
+
+	dataset = dataframe.values
+	dataset = dataset.astype('float32')
+
+	print("Plotting dataset")
+	plt.plot(dataset)
+	#plt.show()
+	print("Dataset plotted")
+
+
+
+
