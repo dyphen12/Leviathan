@@ -29,7 +29,7 @@ print("EVA_Prototype3 // DATASETTING PROCESS STARTED")
 #Analyze of the dataset
 print("Getting dataset // NOW USING: pandas")
 
-Location = r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Datasets\BTCUSD_coindesk6ene.csv'
+Location = r'C:\Users\Usuario\Documents\GitHub\Leviathan\Leviathan\Fortune Tellers\Datasets\BTCUSD_coindesk7ene.csv'
 dataframe = pd.read_csv(Location,usecols=[1], engine='python', skipfooter=1)
 
 dataset = dataframe.values

@@ -39,5 +39,11 @@ while AsukaON == True:
 
         print(trainPredict[-1])
 
+        def LonginosSpear (trainPredict):
+            recentprediction=trainPredict[-1]
+            return recentprediction
+
+
+
         AngelStatus = False
         AsukaON = True #ON/OFF Button
