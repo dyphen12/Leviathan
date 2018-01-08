@@ -42,7 +42,7 @@ def LonginosSpear ():
             print(trainPredict[-1])
 
             recentprediction = trainPredict[-1]
-            return recentprediction
+            return recentprediction,RawData
 
             AngelStatus = False
             AsukaON = True  # ON/OFF Button

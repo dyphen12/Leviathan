@@ -19,8 +19,22 @@ print('This module is receiving data from the pilot "Asuka"\n')
 #starting the module
 
 bitmex = ccxt.bitmex()
-prediction=LonginosSpear()
+(prediction,realdata)=LonginosSpear()
 print(prediction)
+print(realdata[-1])
+
+print('This prediction is for the next 10 minutes aprox.\n')
+'NOTE: Check the yuxtaposition of data and trainsets timesteps problem I or the problem with the data time'
+
+print('ATENEA IS ON // Now checking Bitfinex account\n')
+
+'NOTE: Note that the module is in development so were gonna print your API Key and your Security Key'
+
+print('')
+
+
+
+
 
 
 
