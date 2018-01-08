@@ -33,13 +33,28 @@ bitmex = ccxt.bitmex({
     'apiKey': 'vMLpmDjetlFudTTYXFRibN3c',
     'secret': '-pG3_-pEQjw0WGbTQ7gt8xMDHMY2oHSIUQA7vP8sfxgnNbR9',
 })
-
+print('ATENEA // BitMEX account loaded\n')
 print('ATENEA // Hello Im Atenea the security Goddess.\n')
 
 print('ATENEA // Now im going to load the current SAFE TRADING algorithm\n')
 
 def safetrading ():
     print('Your algorithm goes here! :)')
+    return
+
+print('The Algorithm is loaded, do you want to execute it?\n')
+
+print('1-Yes')
+print('2-No')
+
+option=int(input())
+
+if option==1:
+    safetrading()
+elif option==2:
+    print('Ok sorry')
+
+
 
 
 
