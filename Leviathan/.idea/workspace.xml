@@ -3,14 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d1f963c6-a786-40ff-ac95-d4d2a3a9028b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Angels/Armisael.py" afterPath="$PROJECT_DIR$/Angels/Armisael.py" />
-      <change beforePath="$PROJECT_DIR$/Angels/BTCUSD.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Angels/BTCUSDtoEVA.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Angels/Sachiel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Angels/Sachiel_BTCUSD.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Angels/amazondata.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Pilots/BTCUSD.csv" afterPath="$PROJECT_DIR$/Pilots/BTCUSD.csv" />
-      <change beforePath="$PROJECT_DIR$/Pilots/BTCUSDtoEVA.csv" afterPath="$PROJECT_DIR$/Pilots/BTCUSDtoEVA.csv" />
+      <change beforePath="$PROJECT_DIR$/Angels/data/BTCUSD.csv" afterPath="$PROJECT_DIR$/Angels/data/BTCUSD.csv" />
+      <change beforePath="$PROJECT_DIR$/Angels/data/BTCUSD_Armisael.txt" afterPath="$PROJECT_DIR$/Angels/data/BTCUSD_Armisael.txt" />
+      <change beforePath="$PROJECT_DIR$/Angels/data/BTCUSDtoEVA.csv" afterPath="$PROJECT_DIR$/Angels/data/BTCUSDtoEVA.csv" />
       <change beforePath="$PROJECT_DIR$/Pilots/asuka.py" afterPath="$PROJECT_DIR$/Pilots/asuka.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,45 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Eva_Prototype3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fortune Tellers/Eva_Prototype3.py">
+      <file leaf-file-name="atenea.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Parthenon/atenea.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="73" column="26" lean-forward="false" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="26" />
-              <folding>
-                <element signature="e#196#214#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="asuka.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pilots/asuka.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-              <folding>
-                <element signature="e#1#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BTCUSDtoEVA.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Angels/data/BTCUSDtoEVA.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="51" column="13" lean-forward="false" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Armisael.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Armisael.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Angels/Armisael.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="170" column="9" lean-forward="false" selection-start-line="170" selection-start-column="9" selection-end-line="170" selection-end-column="9" />
+            <state relative-caret-position="-685">
+              <caret line="167" column="0" lean-forward="true" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -94,13 +65,14 @@
         <option value="$PROJECT_DIR$/Fortune Tellers/Eva_Prototype3.py" />
         <option value="$PROJECT_DIR$/Fortune Tellers/Datasets/BTCUSD_coindesk6ene.csv" />
         <option value="$PROJECT_DIR$/Angels/Sachiel.py" />
+        <option value="$PROJECT_DIR$/Angels/Armisael.py" />
         <option value="$PROJECT_DIR$/Angels/data/BTCUSDtoEVA.csv" />
         <option value="$PROJECT_DIR$/Pilots/asuka.py" />
-        <option value="$PROJECT_DIR$/Angels/Armisael.py" />
+        <option value="$PROJECT_DIR$/Parthenon/atenea.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="386" />
     <option name="y" value="50" />
     <option name="width" value="1079" />
@@ -123,7 +95,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,35 +110,13 @@
             <path>
               <item name="Leviathan" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leviathan" type="462c0819:PsiDirectoryNode" />
-              <item name="Angels" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leviathan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leviathan" type="462c0819:PsiDirectoryNode" />
-              <item name="Fortune Tellers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leviathan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leviathan" type="462c0819:PsiDirectoryNode" />
-              <item name="Fortune Tellers" type="462c0819:PsiDirectoryNode" />
-              <item name="Datasets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leviathan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leviathan" type="462c0819:PsiDirectoryNode" />
-              <item name="Fortune Tellers" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leviathan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leviathan" type="462c0819:PsiDirectoryNode" />
-              <item name="Pilots" type="462c0819:PsiDirectoryNode" />
+              <item name="Parthenon" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,14 +261,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21354167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16517857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4161184" sideWeight="0.3392857" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34210527" sideWeight="0.35044643" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.49707174" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.4161184" sideWeight="0.66071427" order="2" side_tool="false" content_ui="tabs" x="188" y="22" width="999" height="672" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34210527" sideWeight="0.6495536" order="2" side_tool="false" content_ui="tabs" x="128" y="8" width="999" height="672" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34210527" sideWeight="0.4940476" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -358,7 +308,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Fortune Tellers/eva03.py" />
     <entry file="file://$PROJECT_DIR$/Fortune Tellers/Datasets/Eva prototype/BTCUSD.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -554,13 +503,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Angels/BTCUSD.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Angels/BTCUSD.csv" />
     <entry file="file://$PROJECT_DIR$/Angels == Sachiel/Sachiel.py" />
     <entry file="file://$PROJECT_DIR$/Fortune Tellers/Datasets/BTCUSD_coindesk5ene.csv">
       <provider selected="true" editor-type-id="text-editor">
@@ -577,14 +520,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Angels/BTCUSDtoEVA.csv" />
-    <entry file="file://$PROJECT_DIR$/Angels/Sachiel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Angels/Sachiel.py" />
     <entry file="file://$PROJECT_DIR$/Fortune Tellers/Datasets/Eva prototype/BTCUSD_1min.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -608,36 +544,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fortune Tellers/Eva_Prototype3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="1122">
           <caret line="73" column="26" lean-forward="false" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="26" />
           <folding>
-            <element signature="e#196#214#0" expanded="true" />
+            <element signature="e#196#214#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angels/data/BTCUSDtoEVA.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="51" column="13" lean-forward="false" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pilots/asuka.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        <state relative-caret-position="93">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="21" />
           <folding>
             <element signature="e#1#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Angels/data/BTCUSDtoEVA.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-149">
+          <caret line="101" column="13" lean-forward="false" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Angels/Armisael.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="170" column="9" lean-forward="false" selection-start-line="170" selection-start-column="9" selection-end-line="170" selection-end-column="9" />
+        <state relative-caret-position="-685">
+          <caret line="167" column="0" lean-forward="true" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Parthenon/atenea.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
           <folding />
         </state>
       </provider>
