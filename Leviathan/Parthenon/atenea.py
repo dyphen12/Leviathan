@@ -18,7 +18,6 @@ print('This module is receiving data from the pilot "Asuka"\n')
 
 #starting the module
 
-bitmex = ccxt.bitmex()
 (prediction,realdata)=LonginosSpear()
 print(prediction)
 print(realdata[-1])
@@ -26,15 +25,21 @@ print(realdata[-1])
 print('This prediction is for the next 10 minutes aprox.\n')
 'NOTE: Check the yuxtaposition of data and trainsets timesteps problem I or the problem with the data time'
 
-print('ATENEA IS ON // Now checking Bitfinex account\n')
+print('ATENEA IS ON // Now checking BitMEX account\n')
 
 'NOTE: Note that the module is in development so were gonna print your API Key and your Security Key'
 
-print('')
+bitmex = ccxt.bitmex({
+    'apiKey': 'vMLpmDjetlFudTTYXFRibN3c',
+    'secret': '-pG3_-pEQjw0WGbTQ7gt8xMDHMY2oHSIUQA7vP8sfxgnNbR9',
+})
 
+print('ATENEA // Hello Im Atenea the security Goddess.\n')
 
+print('ATENEA // Now im going to load the current SAFE TRADING algorithm\n')
 
-
+def safetrading ():
+    print('Your algorithm goes here! :)')
 
 
 
