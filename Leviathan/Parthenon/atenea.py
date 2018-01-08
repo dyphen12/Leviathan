@@ -4,7 +4,7 @@
 '-------------------'
 
 import ccxt
-from Pilots.asuka import LonginosSpear
+from Pilots.asukav2 import LonginosSpear
 
 'Atenea the justice goddess'
 
