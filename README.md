@@ -1,10 +1,11 @@
 # Leviathan
 
-## A Bitcoin Ticker with powered with Deep Learning Library. 
+## A Bitcoin Ticker powered with Deep Learning models. 
 
 (This version is only for Bitcoin)
 
 Deep Learning models applied to the stock market prediction and their facilities.
+Intended to use as Packages.
 
 Models up:
 
@@ -24,7 +25,7 @@ Run atenea.py
 - Is a demo of the execution of all the modules for Bitcoin prediction.
 
 
-## A little description:
+## Main Packages:
 
 atenea.py It's the main program, a Ticker with a prediction with the function of execute an Market strategy on binance (you should put it yourself on the code)
 
